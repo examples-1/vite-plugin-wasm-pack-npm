@@ -23,7 +23,8 @@ pub fn greet() -> Result<(), JsValue> {
   let body = document.body().expect("document should have a body");
   let val = document.create_element("div")?;
   // val.set_attribute("src", &image_src)?;
-  val.set_attribute("style", "height: 200px; width: 200px; background: yellow;")?;
+  val.set_attribute("style", "height: 200px; width: 200px; background: blue;")?;
+  val.set_inner_html("height: 200px; width: 200px; background: blue;");
   body.append_child(&val)?;
 
   // 输出 body dom
