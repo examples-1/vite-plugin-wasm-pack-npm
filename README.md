@@ -1,2 +1,2 @@
-# vite-plugin-wasm-pack-npm
-vite-plugin-wasm-pack插件的npm包使用demo
+# @zebing/vite-plugin-wasm-pack 插件 npm 包使用demo
+
